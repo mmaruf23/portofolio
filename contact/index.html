@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="contact.js"></script>
+</head>
+<body>
+      <!-- NAVBAR -->
+      <nav>
+        <div class="left-nav">
+          <a href="index.html"
+            ><img src="../assets/img/aigen-logo.png" alt="aigen-logo"
+          /></a>
+          <a href="../index.html">Home</a>
+          <a href="../blog/index.html">Blog</a>
+        </div>
+        <div class="right-nav">
+          <a href="./index.html">Contact me</a>
+          <a href="./index.html" class="icon">
+            <span class="material-symbols-outlined"> support_agent </span>
+          </a>
+        </div>
+      </nav>
+      <!-- CONTACT -->
+       <div class="logo">
+        <img src="../assets/img/aigenlogoblack.png" alt="aigen-logo-black">
+       </div>
+
+       <div class="form-container">
+        <form action="">
+          <label for="subject">Subject</label>
+          <input type="text" name="subject" id="subject" placeholder="Masukan subject">
+          <label for="message">Message</label>
+          <textarea name="message" id="message" placeholder="Masukan pasan"></textarea>
+          <div class="send-email">
+            <button onclick="sendEmail()">Send</button>
+          </div>
+
+        </form>
+       </div>
+</body>
+</html>
