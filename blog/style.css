@@ -45,7 +45,6 @@ nav a:hover {
 }
 .right-nav .icon {
   display: none;
-  /* background-color: black; */
 }
 
 .right-nav a:hover {
@@ -58,7 +57,6 @@ nav a:hover {
 .blog {
   padding: 20px 50px;
   display: flex;
-  justify-content: space-between;
 }
 
 .blog-list {
@@ -171,6 +169,7 @@ form button {
 
   /* PR Resposif blog*/
   .blog {
+    
     display: grid;
     grid-template-columns: auto;
     flex-direction: column;
@@ -181,9 +180,8 @@ form button {
   }
 
   .blog-form {
-    width: 93%;
+    width: 75%;
     grid-row: 1;
-    /* display: none; */
   }
 
 }
