@@ -72,6 +72,7 @@ nav a:hover {
   border: 1px solid black;
   border-radius: 10px;
   padding: 8px;
+  align-items: center;
 }
 .blog-image img {
   width: 300px;
@@ -169,9 +170,23 @@ form button {
   }
 
   /* PR Resposif blog*/
+  .blog {
+    display: grid;
+    grid-template-columns: auto;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .blog-list {
+    width: 100%;
+  }
 
   .blog-form {
-    
+    width: 93%;
+    grid-row: 1;
+    /* display: none; */
+  }
+
+  .blog-list-item {
   }
 }
 
